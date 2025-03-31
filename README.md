@@ -81,11 +81,15 @@ O sistema deve permitir a **consulta dos detalhes** de um filme específico, inc
 
 ## 5. Uso de Programação Funcional
 O código faz uso de conceitos de **programação funcional** nos seguintes pontos:
+- **Uso de Closure:** Para gerar IDs unicos tanto para os filmes quanto para usuários.
 - **Uso de Funções de Ordem Superior:** Métodos como `filter_movies` utilizam funções como argumentos.
-- **Uso de Lambda Functions:** Funções anônimas são utilizadas para filtragem e ordenação de dados.
-- **Uso de `functools.reduce`:** Utilizado no cálculo da média das avaliações de um filme.
+- **Uso de Lambda Functions:** Funções lambda são utilizadas para filtragem e ordenação de dados.
+- **Uso de List Comprehension:** Para a formatação dos filmes listados.
 
 ---
+## 6. Sobre os Arquivos
+`catalog.py`: O script define um classe MovieCatalog que tem todas as funcionalidades sitadas a cima, servindo de biblioteca para importa a classe e sua funcionalidades.  
+`Catalog_test.py`: O script da um caso de uso para o codigo e testa as funcionalidades.
 
-## 6. Referências
+## 7. Link
 **Disponível no repositório GitHub:** [GitHub - Movie Catalog](https://github.com/Guilhermedbs/Movie_catalog.git)
